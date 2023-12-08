@@ -1,0 +1,9 @@
+8 j) K-Means using Lloyd's algorithm yields the same result as a GMM  using isotropic gaussians with only one vaiance term for all classes and hard EM (only one cluster can have nonzero resposibility for a data point). We need the non-isotropic gaussians to accurately model non-sperical clusters. One vairaince term per cluster is needed to accurately model clusters of different densities. The "soft" EM is "only" needed to model overlapping clusters. 
+4 o) row:= max number ob lin. indep. rows = col. rank:= max. number of cols that are lin. indep. = rank of matrix. Schein rank. Schein rank could be the number of rank-1 boolean matricies needed to combine into the matrix? https://math.stackexchange.com/questions/4620374/what-is-the-schein-rank-of-the-boolean-matrix-given-below
+2 b) classification: predict one class out of a fixed set, regression: predict a continous number, structured
+prediction: predict a structured object like a sequence
+5 i) The decision boundary is the hyperplane in the feature space where the classifier cannot decide which calss to assign. A classifier is linear if the class label is a linar combination of the features. Log-odds is a linear function of the features in logisitc regression. It is a linear classifier since the the assigned class probability is a function of the log odds.
+5 k) For model p(y| x, theta) and dasta D= {(x_i, y_i)_{i=1}}^{N}. -l(theta|D) = -{\sum_{i=1}}^{N} \log p(y_i|x_i, \theta), ERM_{\log} = \frac{1}{N}{\sum_{i=1}}^{N} -\log p(y_i|x_i, \theta)
+7 j) A = U * \Sigma * V^\top. A^\top * A = Q_{A^\top * A} * \Lambda * Q_{A^\top * A}, A * A^\top = Q_{A * A^\top} * \Lambda * Q_{A * A^\top}. \Simga = \sqrt(\Lambda), V = Q_{A^\top * A}, U = Q_{A * A^\top}. Mnemonic: ATAV and AATU 
+
+
