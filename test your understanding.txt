@@ -1,0 +1,314 @@
+Test your understanding
+a) What is a sample space, an event and a probability space?
+b) What is a random variable? How are they related to events?
+c) What is the difference between discrete and continuous random variables?
+How can their distributions be described formally?
+d) Which distributions do you know? Describe these distributions and their
+properties.
+e) What are joint, marginal, and conditional probabilities? Can we compute
+one from the other? If so, how? If not, why not?
+f) What does the sum rule state and why is it useful?
+g) What does the product rule state and why is it useful?
+h) What is Bayes’ rule and why is it useful?
+i) When are two events dependent? When are they independent?
+j) If X and Y are conditionally independent random variables, are they also
+unconditionally independent? And vice versa?
+k) What is the mean a random variable? And the mode? And the variance?
+And the covariance between two random variables?
+
+Test your understanding
+a) List and describe the three main types of machine learning.
+b) What is the difference between classification, regression, and structured
+prediction?
+c) Contrast parametric and non-parametric models and give examples.
+d) What is meant by the “curse of dimensionality”? Why may it impact
+certain machine learning models?
+e) What is underfitting? What is overfitting? How can we diagnose these
+cases? And how avoid/mitigate?
+f) Why do we distinguish training, validation, and test sets? What would
+happen if training set = validation set? And if validation set = test set?
+g) What is meant by training, by inference, and by decision? What are the
+respective inputs/outputs?
+h) Contrast discriminative functions, discriminative models, and generative
+models.
+i) What is the key assumption of frequentist methods? And of Bayesian
+methods?
+j) What is the bias, variance, and mean squared error of an estimator? What
+is the bias-variance tradeoff? Can you give a concrete example?
+k) Describe the framework of maximum likelihood estimation (MLE). Which
+desirable properties does MLE have? Which undesirable ones? Is the ML
+estimate unique?
+l) Describe the framework of empirical risk minimization (ERM). Contrast
+with MLE.
+m) Why can’t we minimize the risk directly?
+n) In practice, we often use regularized risk minimization (RRM). Why?
+o) Name and define the key distributions relevant to Bayesian inference.
+What is meant by fully Bayesian inference?
+p) Contrast MLE/ERM/RRM with Bayesian inference.
+q) Explain why the variance of the posterior predictive distribution of Bayesian
+linear regression may differ for different inputs. Contrast this with linear
+regression.
+r) Describe the framework of Bayesian decision theory.
+s) In principle, can we compute the expected loss? And the Bayes estimator?
+t) What is the Bayes estimator for (i) classification and 0/1 loss, (ii) regres-
+sion with ℓ2 loss, (iii) regression with ℓ1 loss?
+u) Suppose we know the data distribution p(x, y) exactly. Can the Bayes
+optimal classifier still be wrong? Explain.
+
+Test your understanding
+a) Describe the Bernoulli, binomial, categorical, and multinomial distribu-
+tions. How are they related?
+b) How can we perform prediction with a generative model?
+c) In Bayesian inference, what is the role of the prior, the posterior and the
+posterior predictive distribution? What does each distribution model?
+d) What are conjugate priors? Describe advantages and disadvantages of
+using a conjugate prior.
+e) Describe Beta-binomial model. What are its parameters and its hyper-
+parameters? What do they present? How is prediction performed if we
+use a MAP estimate for the parameters? And if we use fully Bayesian
+inference?
+f) Repeat the above task for the Dirichlet-multinomial model.
+g) Which “shapes” can the Beta distribution represent and with which hy-
+perparameters? And the Dirichlet distribution?
+h) What is the Naive Bayes assumption? Why is it useful if this assumption
+can be made?
+i) Construct a simple example data distribution where using the Naive Bayes
+assumption is not appropriate.
+j) Is the Dirichlet-multinomial model relevant for a general Naive Bayes clas-
+sifier? And for a Naive Bayes classifier with categorical features? Explain.
+k) Contrast categorical Naive Bayes using (i) MLE, (ii) MAP, (iii) fully
+Bayesian inference.
+
+Test your understanding
+a) What is a vector norm?
+b) Which properties do vector norms satisfy?
+c) What are ℓp norms? How do different ℓp norms relate to each other?
+d) What is meant by “ℓ0 norm”? Is it actually a norm? Why or why not?
+e) Why and how can norms be used to measure distances?
+f) Why and how can dot products be used to measure similarity?
+g) Why and how can dot products be used to measure correlation?
+h) Why and how can dot products be used to perform orthogonal projections?
+i) What is the relationship between matrix multiplication and dot products?
+j) How can we interpret matrix multiplication (i) element-wise, (ii) row-wise
+or column-wise, and (iii) component-wise?
+k) What is a Gram matrix? How is related to (sample) covariance in machine
+learning?
+l) What is the transpose of a matrix? What the inverse? Are they always
+equal? If not, can they be equal?
+m) What is an operator norm? Give examples.
+n) What is the Frobenius norm? How is it related to the spectral norm?
+o) What are the row, column, and Schein rank of a matrix? How are they
+related?
+p) When are two vectors orthogonal? And orthonormal?
+q) When is a matrix orthogonal? And column-orthogonal?
+r) Which diagonal matrices are orthogonal? And which triangular matrices?
+And which permutation matrices?
+
+Test your understanding
+a) Define odds, log odds, logit, and logistic function. How are they related?
+b) Describe the logistic regression model. What are it’s assumptions?
+c) How is the logistic regression model parameterized?
+d) What is a bias feature? Why is it used?
+e) What is a logit score? What does it tell you if it is (i) negative, (ii) zero,
+(iii) positive?
+f) How can we interpret weights in the logistic regression model?
+g) How does logistic regression handle categorical variables?
+h) Relate the perceptron to logistic regression. What’s similar? What’s
+different?
+i) What is a decision boundary of a classifier? When is a classifier linear? Is
+logistic regression linear? Why or why not?
+j) When is a dataset linearly separable? How does this relate to linear clas-
+sifiers?
+k) Give an expression for the negative log-likelihood of a discriminate classi-
+fication model p(y|x, θ) for some dataset D =  (xi, yi)iN=1 	. And for the
+empirical risk with log loss?
+l) For MLE, why do we optimize the log-likelihood instead of the likelihood
+directly?
+m) Consider two distributions p and q. Define (i) entropy H(p), (ii) cross
+entropy H(p, q), and (iii) KL divergence DKL(p∥q). How can we interpret
+these quantities? How are they related?
+n) What is the relationship between log loss, cross entropy loss, and KL
+divergence loss? In particular, do these losses agree? If so, under which
+conditions? Moreover, do the ERM estimates agree? If so, under which
+conditions?
+o) When is the DKL(p∥q) large? And when DKL(q∥p)?
+p) Does the direction of the KL divergence matter for ERM with KL diver-
+gence loss?
+
+Test your understanding
+a) Why is optimization important for machine learning? What is special in
+the machine learning context than in general optimization?
+b) What is a gradient?
+c) State the general learning rules of (i) gradient descent (GD) and (ii)
+stochastic gradient descent (SGD). What is the intuition behind these
+rules?
+d) State both rules for logistic regression.
+e) Compare GD and SGD.
+f) For logistic regression, what can we say about the score of an example
+directly before and after an SGD step ?
+g) How can we choose the learning rate? Does the choice matter?
+h) What are second-order gradient-based methods? How are they motivated?
+Which information is needed in each step? Why only this information?
+i) State the learning rule of Newton’s method in the univariate and in the
+multivariate case.
+j) Compare Newton’s method with GD/SGD.
+k) What problems can arise with MLE for logistic regression? How can these
+problems be mitigated?
+l) Discuss the use of a spherical Gaussian as a prior for a model’s parameters.
+m) Discuss the use of ℓ2 regularization for regularized risk minimization.
+n) Relate these two approaches to each other. What is similar, what is dif-
+ferent?
+o) What is meant by weight decay? How can we interpret it?
+p) Describe the softmax regression model. What are it’s assumptions?
+q) How does softmax regression relate to logistic regression?
+r) How can we interpret the scores obtained by softmax regression?
+
+Test your understanding
+a) What is a matrix decomposition?
+b) Why are constraints required to make decompositions useful? Give some
+examples.
+c) Why are we sometimes interested in approximate matrix decompositions?
+d) Describe the factor interpretation of matrix decomposition A = LMR,
+where M is diagonal.
+e) Describe the component interpretation of matrix decomposition A =
+LMR, where M is diagonal.
+f) Define the (i) full, (ii) thin, (iii) compact singular value decomposition
+of an m × n matrix A. State dimensions and properties of the factor
+matrices.
+g) To what extent is the SVD of A unique?
+h) What is the relation between the singular values of A and its (i) rank, (ii)
+Frobenius norm, (iii) 2-norm?
+i) What does the Eckart-Young theorem state? Why is it important?
+j) The SVD of A is related to certain eigendecompositions. Which ones?
+What is the relationship? Establish this result formally.
+k) Describe the geometric interpretation of the SVD. Is this interpretation
+applicable to all matrix decompositions of form A = LMR? Why or why
+not?
+l) Which methods to selecting the size of the truncated SVD are known to
+you? Are these “good” methods?
+m) Explain the relation between the SVD and PCA.
+n) How can we use the SVD to (i) perform dimensionality reduction, (ii)
+denoise data, (iii) visualize data?
+o) How can the SVD and PCA be interpreted as latent linear models?
+p) What is “fold-in”? Why is it sometimes needed? Why can it be problem-
+atic?
+q) What is a latent linear model (LLM)?
+r) Why can we interpret the SVD or PCA as an LLM?
+s) What is factor analysis?
+t) What is probabilistic PCA?
+u) How can we use PPCA to (i) perform dimensionality reduction, (ii) denoise
+data, (iii) visualize data?
+v) Compare PCA and PPCA.
+
+Test your understanding
+a) When is the EM algorithm is useful? What does it provide?
+b) Describe and compare the three missing data mechanisms. Give an exam-
+ple of each mechanism.
+c) Describe the intuition behind the E step and the M step in the EM algo-
+rithm.
+d) Give an expression for (i) the complete-data log likelihood, (ii) the observed-
+data log likelihood, (iii) the missing-data distribution, (iv) the expected
+complete-data log-likelihood, (v) the Q function. Describe what these
+quantities are related to each other and whether/how they are used in the
+EM algorithm.
+e) Describe the E step and M step formally based on your answer to the
+previous question. What can we say about the EM algorithm after each
+iteration of the E and M step? And asymptotically?
+f) What is a mixture model? Describe the generative model, the components
+of a mixture model, their interpretation, and applications of mixture mod-
+els.
+g) What is a Gaussian mixture model (GMM)?
+h) How can we fit a GMM with the EM algorithm? What do we compute in
+the E step? How does the M step look like? Answer these questions (i)
+intuitively and (ii) formally.
+i) Contrast GMMs and K-means clustering.
+j) Lloyd’s algorithm for K-means clustering is related to a certain variant of
+the EM algorithm and a certain variant of GMMs. Which variants? What
+would happen if we use this variant of the EM algorithm with a general
+GMM? And the variant of the GMM with the general EM algorithm?
+k) What is a mixture of experts model?
+
+Test your understanding
+a) Define: kernel, kernel matrix, Mercer kernel.
+b) Give examples of (i) Mercer kernels and (ii) kernels that are not Mercer
+kernels.
+c) Why are kernel methods useful?
+d) What does Mercer theorem say and why is it important in the context of
+kernel methods?
+e) Describe and contrast: kernel machines, vector machines, sparse vector
+machines.
+f) Consider a dataset D = { (xi, yi) }iN=1 with xi ∈ RD and yi ∈ { 0, 1 }.
+Write down the linear predictor used by each of the above three models.
+What is the prediction cost? What is the storage cost? Are the models
+parametric?
+g) What is the kernel trick? Why is it useful?
+h) Why are we interested in sparse vector machines?
+i) Describe and contrast L1VM and SVM for classification. In both cases,
+how is sparsity achieved? Which hyperparameters exist and what do they
+affect?
+j) Write down a possible cost function to train using RRM each of above
+models (kernel machines, vector machines, L1VM, SVM) for (i) classifica-
+tion and (ii) regression.
+k) What is a sparsity-inducing prior? Give an example.
+l) What is the large-margin principle?
+m) Write down the objective of SVC (as a quadratic program) with (i) hard
+constraints and (ii) soft constraints.
+n) Are SVCs large-margin classifiers? Explain your answer
+
+Test your understanding
+1) What is the difference between a hyperparameter and a parameter?
+2) Which aspects of the machine learning pipeline is affected by hyperparam-
+eters? Give concrete examples.
+3) What are the main types of hyperparameters? Give concrete examples.
+4) What is a configuration space? What are conditional hyperparameters
+and how can we model them?
+5) Formally state the HPO problem as an optimization problem. How does
+this problem differ from a learning problem, where we also want to min-
+imize some cost function (such as, say, ERM with log loss for logistic
+regression)?
+6) What is blackbox optimization? Which part is the “blackbox”?
+7) For the example of hold-out validation, why can’t we simply use ∇λV (λ)?
+8) List the three main approaches to blackbox optimization and give exam-
+ples for each. Which methods use the history and which don’t? If history
+is used, what for?
+9) Explain how grid search works. Which choices need to be made by the
+data scientist?
+10) Explain how random search works. Which choices need to be made by the
+data scientist?
+11) Given a budget of n trials for a model with L hyperparameters, how many
+different values of each hyperparameter are explored for (i) grid search and
+(ii) random search?
+12) Compare grid search and random search. In particular, explain the main
+advantages of random search.
+13) Why is random search not enough?
+14) ES and, in particular, CMA-ES are popular choices of population-based
+models. Explain how they work. What is the main difference between
+them?
+15) What is Bayesian optimization and what is the general approach?
+16) Explain the role of the surrogate model and the acquisition function.
+Which features should the surrogate model have? What about the ac-
+quisition function?
+17) Discuss whether (i) linear regression, (ii) SVR, and (iii) Bayesian linear
+regression are suitable surrogate models.
+18) What is a Gaussian process? Which hyperparameters does it have? And
+which assumptions does it encode?
+19) Explain Gaussian process regression, its parameters, its hyperparameters,
+and its general suitability as a surrogate model.
+20) What is the computational cost to fit and to predict with GPR?
+21) Discuss advantages and disadvantages of GPR in the context of Bayesian
+optimization.
+22) Gaussian process regression is also a useful regression model. What is its
+main advantage over (i) support vector regression and (ii) Bayesian linear
+regression?
+23) What are multi-fidelity methods for HPO? Why can they be useful?
+24) List the three main approaches for multi-fidelity HPO and explain them.
+25) Optional: How does multi-fidelity HPO relate to multi-armed bandit prob-
+lems?
+26) Describe the successive halving technique (SH). How can we avoid speci-
+fying the budget (number of trials) in advance?
+27) Discuss the use of SH practice.
+28) What is the n vs B/n problem? How does HyperBand address it?
+29) Many HPO methods have their own (hyper)hyperparameters. Provide a
+few examples and possible ways to choose them.
+30) Can extensive hyperparameter tuning lead to overfitting on the validation
+set? If so, why and which strategies can be used to avoid it?
