@@ -159,7 +159,7 @@ k) What problems can arise with MLE for logistic regression? How can these
 problems be mitigated?
 l) Discuss the use of a spherical Gaussian as a prior for a model’s parameters.
 m) Discuss the use of ℓ2 regularization for regularized risk minimization.
-n) Relate these two approaches to each other. What is similar, what is dif-
+n) Relate these two approaches [spherical Gaussian, ℓ2 regularization] to each other. What is similar, what is dif-
 ferent?
 o) What is meant by weight decay? How can we interpret it?
 p) Describe the softmax regression model. What are it’s assumptions?
