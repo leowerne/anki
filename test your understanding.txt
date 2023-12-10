@@ -67,7 +67,10 @@ e) Describe Beta-binomial model. What are its parameters and its hyper-
 parameters? What do they present? How is prediction performed if we
 use a MAP estimate for the parameters? And if we use fully Bayesian
 inference?
-f) Repeat the above task for the Dirichlet-multinomial model.
+f) Describe Dirichlet-multinomial model. What are its parameters and its hyper-
+parameters? What do they present? How is prediction performed if we
+use a MAP estimate for the parameters? And if we use fully Bayesian
+inference?
 g) Which “shapes” can the Beta distribution represent and with which hy-
 perparameters? And the Dirichlet distribution?
 h) What is the Naive Bayes assumption? Why is it useful if this assumption
