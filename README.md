@@ -3,7 +3,6 @@ Some code for creating Anki flashcards.
 
 Make shure Anki is installed and currently running on your machine.
 You also need to install the extension [anki connect](https://github.com/FooSoft/anki-connect)
-Make shure you have created an anki card deck with the appropriate deck name "ML 2023 Test your understanding"
 
 The "test your understanding.txt" questions are from the Machine Learning 2023 course by Prof. Dr. Rainer Gemulla and Tutor Tommaso Green at the University of Mannheim.
 
