@@ -214,8 +214,7 @@ data log likelihood, (iii) the missing-data distribution, (iv) the expected
 complete-data log-likelihood, (v) the Q function. Describe what these
 quantities are related to each other and whether/how they are used in the
 EM algorithm.
-e) Describe the E step and M step formally based on your answer to the
-previous question. What can we say about the EM algorithm after each
+e) Describe the E step and M step formally [...]. What can we say about the EM algorithm after each
 iteration of the E and M step? And asymptotically?
 f) What is a mixture model? Describe the generative model, the components
 of a mixture model, their interpretation, and applications of mixture mod-
